@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[createCustomer]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[deleteCustomer]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="114" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="114" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+      <class name="com.actitime.testscript.CustomerModule">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@6dbb137d]" name="login" is-config="true" duration-ms="17" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@6dbb137d]" name="createCustomer" duration-ms="15" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[createCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@6dbb137d]" name="logout" is-config="true" duration-ms="1" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.testscript.CustomerModule@6dbb137d]" name="login" is-config="true" duration-ms="1" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="deleteCustomer()[pri:0, instance:com.actitime.testscript.CustomerModule@6dbb137d]" name="deleteCustomer" duration-ms="2" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[deleteCustomer]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteCustomer -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.actitime.testscript.CustomerModule@6dbb137d]" name="logout" is-config="true" duration-ms="1" started-at="2021-09-16T21:23:04Z" finished-at="2021-09-16T21:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.actitime.testscript.CustomerModule -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
